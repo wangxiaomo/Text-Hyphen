@@ -26,7 +26,7 @@ words where it is possible to insert hyphens to break a line.
 
     my $hyphenator = new Text::Hyphen;
 
-    print $hyphenator->hyphenate('representation');
+    print scalar($hyphenator->hyphenate('representation'));
     # prints rep-re-sen-ta-tion
 
 =head1 EXPORT
